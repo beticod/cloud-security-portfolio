@@ -27,3 +27,19 @@
 - HTTPS: curl -I https://example.com devolvió HTTP/2 200.
 - Conclusión: la resolución DNS funcionó y se pudo realizar una petición HTTPS.
 - IPv4 e IPv6: son dos formatos de direcciones IP.
+
+## Procesos, almacenamiento y registros
+
+- `ps aux`: lista los procesos del sistema.
+- `lsblk`: muestra discos y particiones.
+- `top`: permite observar procesos y consumo de recursos.
+- `journalctl`: consulta los registros del sistema.
+- `grep`: filtra líneas que coinciden con un patrón.
+- `tail`: muestra las últimas líneas de una salida.
+
+### Observaciones del laboratorio
+
+- El sistema tenía aproximadamente 15 GiB de RAM.
+- La raíz `/` estaba montada en `/dev/sdb2`.
+- Se observaron mensajes de AppArmor relacionados con Brave.
+- Los mensajes por sí solos no permiten concluir que exista un incidente de seguridad.
