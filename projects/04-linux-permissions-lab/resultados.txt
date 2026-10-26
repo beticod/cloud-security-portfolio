@@ -1,0 +1,11 @@
+Linux File Permissions Lab
+lun 26 oct 2026 10:40:42 CET
+
+=== Prueba 1: permisos 664 ===
+-rw-rw-r-- 664 cayetano cayetano informe.txt
+
+=== Prueba 2: permisos 600 ===
+-rw------- 600 cayetano cayetano informe.txt
+
+=== Prueba 3: permisos 640 ===
+-rw-r----- 640 cayetano cayetano informe.txt
